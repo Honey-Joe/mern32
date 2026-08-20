@@ -1,0 +1,35 @@
+/* h2{
+    color: green;
+} */
+
+*{
+    color: red;
+}
+
+h1{
+    color: green;
+}
+
+.para{
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-weight: 100;
+    font-style: italic;
+    line-height: 80px;
+    text-align: justify;
+    text-decoration: line-through double black;
+}
+
+.heading{
+    color: orange;
+}
+
+.head{
+    color: pink;
+}
+
+#para{
+    color: aquamarine;
+}
+
