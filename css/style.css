@@ -19,6 +19,7 @@ h1{
     line-height: 80px;
     text-align: justify;
     text-decoration: line-through double black;
+    text-transform: lowercase;
 }
 
 .heading{
