@@ -27,6 +27,7 @@ console.log(arr)
 arr.shift()
 console.log(arr)
 arr.splice(2,2)
+arr.splice(2,0,'hello 2')
 console.log(arr)
 console.log(arr.length)
 
@@ -51,6 +52,20 @@ delete obj.state
 delete obj['salary']
 console.log(obj)
 
+function addFucntion (a,b){
+    console.log(a+b)
+}
 
+addFucntion(50,20)
+
+let expresstion = function(){
+    console.log("Hello")
+}
+
+expresstion()
+
+let arrowFcunt = ()=>console.log("Helll oArrow")
+
+arrowFcunt()
 
 

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    <p id="para" class="para"></p>
+
+    <!-- <button onclick="paraFuntion()" >Click</button> -->
+     <button id="btn">Click</button>
+</body>
+<script>
+
+    let btnClick = document.getElementById('btn')
+    let paraElement = document.getElementById('para')
+
+    btnClick.addEventListener('click' , ()=>{
+        paraElement.innerHTML = '<p> hello </p>'
+    })
+
+    function paraFuntion(){
+        para.textContent = 'Hello world'
+    
+        // paraElement.textContent = 'Hello'
+    }
+
+
+
+</script>
+</html>
