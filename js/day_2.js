@@ -64,7 +64,7 @@ let expresstion = function(){
 
 expresstion()
 
-let arrowFcunt = ()=>console.log("Helll oArrow")
+let arrowFcunt = ()=>console.log("HellloArrow")
 
 arrowFcunt()
 
